@@ -1,0 +1,60 @@
+
+$pri-bg: lightblue;
+$seco-bg: rgb(0, 0, 0);
+  @mixin MFD {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    backdrop-filter: blur(2.4px);
+  }
+  @mixin MFL {
+  background: rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: black;
+    backdrop-filter: blur(2.4px);
+  }
+
+  
+  .App-light{
+    background: $pri-bg;
+  }
+  .App-dark{
+  background-color: $seco-bg
+  }
+  header{
+    label{
+      @include MFD;
+      bordeR: 1px solid white;
+
+    }
+    textarea{
+      background: transparent;
+      &:focus{
+        border: rgba(255,255,255,0.5);
+      }
+      &::placeholder{
+        color: white;
+      }
+    }
+    .btn{
+      &:hover{
+        color: red;;
+      }
+    }
+  }
+  main{
+  // border: 1px solid white;
+  backdrop-filter: blur(2.4px);
+    nav{
+      p{
+        @include MFD;
+      }
+    }
+  }
+  footer{
+    @include MFD;
+    
+     b{
+      color: gold;
+    }
+  }

@@ -1,0 +1,28 @@
+@media screen and (max-width: 440px){
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    header{
+      order: 3;
+      height: 6%;
+      label{
+        width: 100%;
+      }
+    }
+    footer{
+      order: -1;
+      height: 7%;
+      font-size: 10vmin;
+    }
+    main{
+    height: 85%;}
+    .cardsSA{
+      flex-direction: column;
+    }
+    .cols{
+      width: 100%;
+      height: 47%;
+    }
+  }

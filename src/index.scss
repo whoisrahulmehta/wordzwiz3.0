@@ -1,0 +1,25 @@
+//style reset
+@import './components/style/loadinf';
+
+@import './components/style/basic';
+
+//color- theme- css
+@import './components/style/colorSchema';
+
+// setting structure 
+@import './components/style/stylingAPP';
+
+//media querry
+@import './components/style/media1200';
+
+@import './components/style/media840';
+
+@import './components/style/media480';
+
+
+
+
+#root{
+    height: 100vh;
+    width: 100%;
+}

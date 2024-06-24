@@ -1,0 +1,51 @@
+@media screen and (max-width: 1180px){
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  header{
+    height: 4%;
+    order: -1;
+    label{
+      width: 60%;
+    }
+    .btn{
+      border-radius: 50%;
+    }
+  }
+  main{
+    height: 89%;
+  }
+  footer{
+    height: 7%;
+    order: -2;
+    font-size: 3.2rem;
+    
+  }
+  
+}
+
+@media screen and (min-width: 1180px){
+    header{
+      height: 5%;
+      order: -1;
+      label{
+        width: 50%;
+        border-radius: 1%;
+      }
+      .btn{
+        border-radius: 1%;
+      }
+      main{
+        height: 85%;
+      }
+    }
+    footer{
+      height: 7%;
+      order: 2;
+      font-size: 3.5rem;
+      
+    }
+    
+  }

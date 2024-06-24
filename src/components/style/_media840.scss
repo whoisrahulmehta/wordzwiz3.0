@@ -1,0 +1,28 @@
+@media screen and (max-width: 880px){
+   * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+   header{
+     height: 5%;
+     order: 1;
+     label{
+       width: 100%;
+       border-radius: 1%;
+     }
+     .btn{
+       border-radius: 1%;
+     }
+   }
+   main{
+    height:90%;
+   }
+   footer{
+     height: 5%;
+     order: 2;
+     font-size: 3rem;
+     
+   }
+   
+ }
